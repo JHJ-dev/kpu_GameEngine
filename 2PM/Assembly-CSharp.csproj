@@ -55,10 +55,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\PlayerMoveController.cs" />
      <Compile Include="Assets\CameraMoveController.cs" />
      <Compile Include="Assets\GameInputAction.cs" />
-     <Compile Include="Assets\Timer.cs" />
      <None Include="Assets\GleyPlugins\DeliveryVehiclesPack\Scripts\Version.txt" />
      <None Include="Assets\POLYGON city pack\Read_me.txt" />
  <Reference Include="Unity.Timeline.Editor">
