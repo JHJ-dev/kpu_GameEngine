@@ -20,32 +20,51 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e6c32a9-725b-4f5b-a144-1851f8414518" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2PM.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2PM.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMoveController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CameraMoveController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameInputAction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameInputAction.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameInputAction.inputactions" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameInputAction.inputactions.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlayerMoveController.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleA.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/CircleB.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/35/35862db5aad372fc9f07b30628dc19d2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5f/5ff9297cc6f3822415800093bbde219f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b2/b29737f689c57deb32393ca30029a00a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/Artifacts/bd/bd17ada13cf0ef2133721c6f9b844f7f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/42/42d1db389add73ccf7c4a8ab459f13fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/44/44ef8bdf947e92564d9b7ccd6bd7e947" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/47/4769d4f52efa8758dd6bbf103331a6ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/5c/5c690ab0b8e0b18299505c04a62bea10" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/6a/6a4c95778a57fdc99fd967ed3f657195" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/70/70ce05f8e9edbab9a478077f7a5a7eef" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/76/76a35cbeeeb62a50fca168959427fa77" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/91/91fc8c6835e7cc73c59364e6efc39b84" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/b5/b5233baffef25185725ce99415a31e28" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/c3/c38b70abd28ea9aac3a452943ca711dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/d3/d3d13e7e4ffa184b4f12de3888f26500" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/e2/e2e9f026bab331bcbb80a13c3f756f7b" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/fd/fd2d6d27d5d71a6aa5cdfbcfdbc86bb6" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Library/PackageManager/ProjectCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Unity.TextMeshPro.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/expandedItems" beforeDir="false" afterPath="$PROJECT_DIR$/Library/expandedItems" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,10 +76,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/FirstPersonCharacterMoveController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/CameraMoveController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/GameInputAction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/GameInputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/Documents/kpu-game-dev/2-complete/Assets/Script/Manager/EventManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -70,6 +90,14 @@
         <option value="$PROJECT_DIR$/Assets/GameInputAction.cs" />
         <option value="$PROJECT_DIR$/Assets/PlayerMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/CameraMoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/SingletonBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameState.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" />
       </list>
     </option>
   </component>
@@ -114,6 +142,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606467091244</updated>
       <workItem from="1606467119586" duration="4233000" />
+      <workItem from="1606762961475" duration="1103000" />
+      <workItem from="1606846269847" duration="6419000" />
     </task>
     <servers />
   </component>
@@ -132,6 +162,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -141,9 +172,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="593" y="111" key="RiderGenerateDialog/0.0.1536.824/-1920.-69.1536.824@0.0.1536.824" timestamp="1606470800486" />
-    <state x="-1586" y="-69" width="1123" height="811" key="dock-window-1" timestamp="1606471532732">
-      <screen x="-1920" y="-69" width="1536" height="824" />
+    <state x="334" y="0" width="1123" height="811" key="dock-window-1" timestamp="1606763451882">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="-1586" y="-69" width="1123" height="811" key="dock-window-1/0.0.1536.824/-1920.-69.1536.824@0.0.1536.824" timestamp="1606471532732" />
+    <state x="334" y="0" width="1123" height="811" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1606763451882" />
   </component>
 </project>
