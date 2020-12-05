@@ -6,6 +6,8 @@ using UnityEngine.InputSystem;
 
 public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCameraActions
 {
+    public GameState state;
+    
     private GameInputAction _inputAction;
     private Vector2 _mouseDeltaVector;
     private float _cameraRotation;
@@ -15,8 +17,6 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
     
     void Start()
     {
-        Cursor.visible = false;
-        Cursor.lockState = CursorLockMode.Locked;
     }
 
     private void OnEnable()
@@ -34,10 +34,12 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
     
     void Update()
     {
+
         var horizontalDirection = _mouseDeltaVector.x * Time.deltaTime * mouseSensitivity;
         transform.Rotate(0, horizontalDirection, 0);
 
-        _cameraRotation = Mathf.Clamp(_cameraRotation - _mouseDeltaVector.y * Time.deltaTime * mouseSensitivity, -90f, 90f);
+        _cameraRotation = Mathf.Clamp(_cameraRotation - _mouseDeltaVector.y * Time.deltaTime * mouseSensitivity, 
+            -90f, 90f);
         cameraTransform.localRotation = Quaternion.Euler(_cameraRotation, 0, 0);
     }
     

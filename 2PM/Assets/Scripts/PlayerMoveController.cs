@@ -13,7 +13,7 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
     [SerializeField] private float characterMoveSpeed = 10f;
     
     private void Awake()
-    {
+    { 
         _characterController = GetComponent<CharacterController>();
     }
     
