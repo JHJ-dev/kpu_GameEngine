@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD:2PM/Assets/Timer.cs.meta
-guid: f645f1c1fedd5184e8cdac9ecbd5b5bb
-=======
-guid: 8f5e69b24e2427b4d8bcf356214cfcb4
->>>>>>> master:2PM/Assets/Scripts/EventManager.cs.meta
+guid: e9aba6d5d19040a40a3c2f8afea24c50
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
