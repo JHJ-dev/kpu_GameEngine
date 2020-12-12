@@ -45,4 +45,5 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
     public void OnShoot(InputAction.CallbackContext context)
     {
     }
+    
 }
