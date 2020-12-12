@@ -13,7 +13,7 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
     private float _cameraRotation;
 
     [SerializeField] private Transform cameraTransform;
-    [SerializeField] private float mouseSensitivity = 100f;
+    [SerializeField] private float mouseSensitivity = 10f;
     
     void Start()
     {
@@ -31,18 +31,17 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
     {
         _inputAction.Disable();
     }
-    
+
     void Update()
     {
-
-        var horizontalDirection = _mouseDeltaVector.x * Time.deltaTime * mouseSensitivity;
+        var horizontalDirection = _mouseDeltaVector.x * Time.deltaTime * mouseSensitivity; 
         transform.Rotate(0, horizontalDirection, 0);
-
+        
         _cameraRotation = Mathf.Clamp(_cameraRotation - _mouseDeltaVector.y * Time.deltaTime * mouseSensitivity, 
-            -90f, 90f);
+            -90f, 60f); 
         cameraTransform.localRotation = Quaternion.Euler(_cameraRotation, 0, 0);
     }
-    
+
     public void OnAim(InputAction.CallbackContext context)
     {
         _mouseDeltaVector = context.ReadValue<Vector2>();
