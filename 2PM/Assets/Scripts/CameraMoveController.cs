@@ -13,7 +13,7 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
     private float _cameraRotation;
 
     [SerializeField] private Transform cameraTransform;
-    [SerializeField] private float mouseSensitivity = 10f;
+    [SerializeField] private float mouseSensitivity = 100f;
     
     void Start()
     {
