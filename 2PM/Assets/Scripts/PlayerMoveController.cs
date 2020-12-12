@@ -34,6 +34,7 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
     {
         var verticalVector = transform.forward * (_moveActionValue.y * Time.deltaTime * characterMoveSpeed);
         var horizontalVector = transform.right * (_moveActionValue.x * Time.deltaTime * characterMoveSpeed);
+        
         _characterController.Move(verticalVector + horizontalVector);
     }
 
