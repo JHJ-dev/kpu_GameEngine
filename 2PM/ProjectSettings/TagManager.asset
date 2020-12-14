@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Building
   - Pizza
+  - DeliveryCube
   layers:
   - Default
   - TransparentFX
