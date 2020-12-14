@@ -23,18 +23,21 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2PM.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2PM.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/POLYGON city pack/Prefabs/Props/Traffic_pot prefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/POLYGON city pack/Prefabs/Props/Traffic_pot prefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pizza/Prefab/Pizza_use.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Pizza/Prefab/Pizza_use.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameInputAction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameInputAction.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameInputAction.inputactions" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameInputAction.inputactions" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
@@ -51,6 +54,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/scripts/FirstPersonCamera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/scripts/FirstPersonMover.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/GameInputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/2-complete/Assets/Script/Manager/EventManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -72,14 +76,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameRestartButtonUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/EndMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnObstacle.cs" />
       </list>
     </option>
   </component>
@@ -134,6 +140,8 @@
       <workItem from="1607883921227" duration="1865000" />
       <workItem from="1607946039937" duration="99000" />
       <workItem from="1607946220077" duration="8676000" />
+      <workItem from="1607982363860" duration="281000" />
+      <workItem from="1607982857521" duration="1445000" />
     </task>
     <servers />
   </component>

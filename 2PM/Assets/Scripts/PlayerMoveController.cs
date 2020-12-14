@@ -39,14 +39,14 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
 
             _characterController.Move(verticalVector + horizontalVector);
         }
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            EventManager.Emit("game_paused", null);
+        }
     }
 
     public void OnMove(InputAction.CallbackContext context)
     {
         _moveActionValue = context.ReadValue<Vector2>();
-    }
-    
-    public void OnShoot(InputAction.CallbackContext context)
-    {
     }
 }

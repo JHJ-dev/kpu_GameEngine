@@ -51,9 +51,12 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Pizza\PizzaControll.cs" />
+     <Compile Include="Assets\Scripts\UI\Aim.cs" />
      <Compile Include="Assets\Scripts\Pizza\RemovePizza.cs" />
      <Compile Include="Assets\Scripts\PlayerMoveController.cs" />
+     <Compile Include="Assets\Scripts\UI\GameRestartButtonUI.cs" />
      <Compile Include="Assets\Scripts\Pizza\FirePizza.cs" />
+     <Compile Include="Assets\Scripts\UI\EndMenuUI.cs" />
      <Compile Include="Assets\Scripts\SingletonBehaviour.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\UI\GameEndButtonUI.cs" />
@@ -64,10 +67,8 @@
      <Compile Include="Assets\Scripts\GameInputAction.cs" />
      <Compile Include="Assets\Scripts\UI\GameStartButtonUI.cs" />
      <Compile Include="Assets\Scripts\UI\StartMenuUI.cs" />
-     <Compile Include="Assets\Scripts\UI\MenuButtonUI.cs" />
-     <Compile Include="Assets\Scripts\UI\EndMenuUI.cs" />
-     <Compile Include="Assets\Scripts\UI\GameRestartButtonUI.cs" />
-     <Compile Include="Assets\Scripts\UI\Aim.cs" />
+     <Compile Include="Assets\Scripts\SpawnObstacle.cs" />
+     <Compile Include="Assets\Scripts\ObstacleControl.cs" />
      <None Include="Assets\GleyPlugins\DeliveryVehiclesPack\Scripts\Version.txt" />
      <None Include="Assets\POLYGON city pack\Read_me.txt" />
  <Reference Include="Unity.Timeline.Editor">
