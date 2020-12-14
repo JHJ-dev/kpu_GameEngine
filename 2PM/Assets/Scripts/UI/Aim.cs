@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuButtonUI : SingletonBehaviour<GameManager>
+public class Aim : MonoBehaviour
 {
-    private void Start()
+    void Start()
     {
         gameObject.SetActive(false);
         EventManager.On("game_started", Show);
@@ -16,9 +15,4 @@ public class MenuButtonUI : SingletonBehaviour<GameManager>
     private void Show(object obj) => gameObject.SetActive(true);
 
     private void Hide(object obj) => gameObject.SetActive(false);
-
-    public void Clicked()
-    {
-        EventManager.Emit("game_paused", null);
-    }
 }

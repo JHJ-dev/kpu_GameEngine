@@ -34,12 +34,15 @@ public class CameraMoveController : MonoBehaviour, GameInputAction.IPlayerCamera
 
     void Update()
     {
-        var horizontalDirection = _mouseDeltaVector.x * Time.deltaTime * mouseSensitivity; 
-        transform.Rotate(0, horizontalDirection, 0);
-        
-        _cameraRotation = Mathf.Clamp(_cameraRotation - _mouseDeltaVector.y * Time.deltaTime * mouseSensitivity, 
-            -90f, 60f); 
-        cameraTransform.localRotation = Quaternion.Euler(_cameraRotation, 0, 0);
+        if (GameManager.Instance.state == GameState.Playing)
+        {
+            var horizontalDirection = _mouseDeltaVector.x * Time.deltaTime * mouseSensitivity;
+            transform.Rotate(0, horizontalDirection, 0);
+
+            _cameraRotation = Mathf.Clamp(_cameraRotation - _mouseDeltaVector.y * Time.deltaTime * mouseSensitivity,
+                -90f, 60f);
+            cameraTransform.localRotation = Quaternion.Euler(_cameraRotation, 0, 0);
+        }
     }
 
     public void OnAim(InputAction.CallbackContext context)

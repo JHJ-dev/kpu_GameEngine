@@ -26,12 +26,17 @@
       <change beforePath="$PROJECT_DIR$/2PM.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2PM.sln" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Timer.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/EndButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/EndButton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/MenuButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/MenuButton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/StartButton.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/StartButton.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/StartMenu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/StartMenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +70,16 @@
         <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameStartButtonUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/StartMenuUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameRestartButtonUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameEndButtonUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/EndMenuUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Aim.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +132,8 @@
       <workItem from="1607796335777" duration="1816000" />
       <workItem from="1607799761305" duration="1645000" />
       <workItem from="1607883921227" duration="1865000" />
+      <workItem from="1607946039937" duration="99000" />
+      <workItem from="1607946220077" duration="8676000" />
     </task>
     <servers />
   </component>

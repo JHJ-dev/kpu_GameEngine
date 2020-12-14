@@ -32,10 +32,13 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
 
     void Update()
     {
-        var verticalVector = transform.forward * (_moveActionValue.y * Time.deltaTime * characterMoveSpeed);
-        var horizontalVector = transform.right * (_moveActionValue.x * Time.deltaTime * characterMoveSpeed);
-        
-        _characterController.Move(verticalVector + horizontalVector);
+        if (GameManager.Instance.state == GameState.Playing)
+        {
+            var verticalVector = transform.forward * (_moveActionValue.y * Time.deltaTime * characterMoveSpeed);
+            var horizontalVector = transform.right * (_moveActionValue.x * Time.deltaTime * characterMoveSpeed);
+
+            _characterController.Move(verticalVector + horizontalVector);
+        }
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -46,5 +49,4 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
     public void OnShoot(InputAction.CallbackContext context)
     {
     }
-    
 }

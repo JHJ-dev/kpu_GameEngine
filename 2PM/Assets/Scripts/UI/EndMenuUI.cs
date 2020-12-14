@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class StartMenuUI : MonoBehaviour
+public class EndMenuUI : MonoBehaviour
 {
     void Start()
     {
+        gameObject.SetActive(false);
         EventManager.On("game_started", Hide);
-        EventManager.On("game_paused", Show);
-        EventManager.On("game_ended", Hide);
+        EventManager.On("game_paused", Hide);
+        EventManager.On("game_ended", Show);
     }
 
     private void Show(object obj) => gameObject.SetActive(true);

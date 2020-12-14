@@ -11,12 +11,12 @@ public class GameManager : SingletonBehaviour<GameManager>
     {
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
-        
+
         EventManager.On("game_started", OnGameStart);
         EventManager.On("game_paused", OnGamePause);
         EventManager.On("game_ended", OnGameEnd);
     }
-    
+
     private void OnGameStart(object obj)
     {
         state = GameState.Playing;
@@ -31,5 +31,4 @@ public class GameManager : SingletonBehaviour<GameManager>
     {
         state = GameState.Ended;
     }
-
 }

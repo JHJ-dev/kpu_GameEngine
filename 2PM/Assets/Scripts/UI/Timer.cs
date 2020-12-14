@@ -1,0 +1,34 @@
+﻿using System;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace Timer
+{
+    public class Timer : MonoBehaviour
+    {
+        private Text _text;
+
+        private float _time = 10.0f;
+        private bool _active;
+
+        private void Awake()
+        {
+            _active = true;
+            _text = GetComponent<Text>();
+        }
+
+        void Update()
+        {
+            if (GameManager.Instance.state == GameState.Playing)
+            {
+                if (_active)
+                    _time -= Time.deltaTime;
+                if (_time <= 0.0f)
+                    EventManager.Emit("game_ended", null);
+
+                var timeSpan = new TimeSpan(0, 0, 0, 0, (int) _time * 1000);
+                _text.text = $"{timeSpan.Minutes:00}:{timeSpan.Seconds:00}";
+            }
+        }
+    }
+}

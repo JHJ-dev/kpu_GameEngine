@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
-public class GameEndButtonUI : MonoBehaviour
+public class GameRestartButtonUI : MonoBehaviour
 {
     public void Clicked()
     {
-        EventManager.Emit("game_ended", null);
+        EventManager.Emit("game_started", null);
     }
 }
