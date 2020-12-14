@@ -7,6 +7,7 @@ public class StartMenuUI : MonoBehaviour
     void Start()
     {
         EventManager.On("game_started", Hide);
+        EventManager.On("game_paused", Show);
         EventManager.On("game_ended", Show);
     }
 

@@ -35,10 +35,18 @@
           <e p="GameInputAction.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
+          <e p="Pizza" t="Include">
+            <e p="FirePizza.cs" t="Include" />
+            <e p="PizzaControll.cs" t="Include" />
+            <e p="RemovePizza.cs" t="Include" />
+          </e>
           <e p="PlayerMoveController.cs" t="Include" />
           <e p="SingletonBehaviour.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
           <e p="UI" t="Include">
+            <e p="GameEndButtonUI.cs" t="Include" />
             <e p="GameStartButtonUI.cs" t="Include" />
+            <e p="MenuButtonUI.cs" t="Include" />
             <e p="StartMenuUI.cs" t="Include" />
           </e>
         </e>
