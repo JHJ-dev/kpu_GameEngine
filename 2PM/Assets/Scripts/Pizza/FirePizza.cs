@@ -7,23 +7,21 @@ public class FirePizza : MonoBehaviour
     public GameObject pizza;
     public Transform firePos;
 
-    // Start is called before the first frame update
+    public Transform dir;
+    Vector3 _dir;
+
     void Start()
     {
-        
+
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-        {
-            Fire();
-        }
-    }
-    
-    void Fire()
-    {
-        Instantiate(pizza, firePos.position, firePos.rotation);
+            Instantiate(pizza, firePos.position, dir.rotation);
+
+        _dir = new Vector3(dir.position.x - firePos.position.x, dir.position.y - firePos.position.y, dir.position.z - firePos.position.z).normalized;
+
+        pizza.transform.forward += _dir;
     }
 }

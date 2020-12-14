@@ -10,5 +10,7 @@ public class RemovePizza : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        Destroy(gameObject, 3.0f);
     }
 }
