@@ -9,16 +9,16 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
     private CharacterController _characterController;
     private GameInputAction _inputAction;
     private Vector2 _moveActionValue;
-    
-    [SerializeField] private float characterMoveSpeed = 10f;
+
+    private float characterMoveSpeed = 20.0f;
+
+    void Start()
+    {
+    }
     
     private void Awake()
     { 
         _characterController = GetComponent<CharacterController>();
-    }
-    
-    void Start()
-    {
     }
 
     private void OnEnable()
@@ -39,6 +39,7 @@ public class PlayerMoveController : MonoBehaviour, GameInputAction.IPlayerAction
 
             _characterController.Move(verticalVector + horizontalVector);
         }
+
         if (Input.GetKey(KeyCode.Escape))
         {
             EventManager.Emit("game_paused", null);
