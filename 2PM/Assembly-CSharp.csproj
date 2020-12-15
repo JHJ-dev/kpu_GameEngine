@@ -62,13 +62,15 @@
      <Compile Include="Assets\Scripts\UI\GameEndButtonUI.cs" />
      <Compile Include="Assets\Scripts\EventManager.cs" />
      <Compile Include="Assets\Scripts\UI\Timer.cs" />
+     <Compile Include="Assets\Scripts\SpawnFixedObstacle.cs" />
      <Compile Include="Assets\Scripts\CameraMoveController.cs" />
      <Compile Include="Assets\Scripts\GameState.cs" />
      <Compile Include="Assets\Scripts\GameInputAction.cs" />
      <Compile Include="Assets\Scripts\UI\GameStartButtonUI.cs" />
      <Compile Include="Assets\Scripts\UI\StartMenuUI.cs" />
-     <Compile Include="Assets\Scripts\SpawnObstacle.cs" />
-     <Compile Include="Assets\Scripts\ObstacleControl.cs" />
+     <Compile Include="Assets\Scripts\ObstacleController.cs" />
+     <Compile Include="Assets\Scripts\SpawnMovingObstacle.cs" />
+     <Compile Include="Assets\Scripts\MovingObstacleController.cs" />
      <None Include="Assets\GleyPlugins\DeliveryVehiclesPack\Scripts\Version.txt" />
      <None Include="Assets\POLYGON city pack\Read_me.txt" />
  <Reference Include="Unity.Timeline.Editor">

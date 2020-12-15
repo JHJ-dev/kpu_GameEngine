@@ -1,25 +1,15 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PizzaControll : MonoBehaviour
+public class ObstacleController : MonoBehaviour
 {
-    public float speed = 100.0f;
-
-    void Start()
-    {
-        GetComponent<Rigidbody>().AddForce(transform.forward * speed);
-    }
-
-    void Update()
-    {
-    }
-
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "Obstacle")
+        if (collision.collider.tag == "Player")
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 0.1f);
         }
         if (collision.collider.tag == "MovingObstacle")
         {
@@ -29,6 +19,6 @@ public class PizzaControll : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        Destroy(gameObject, 3.0f);
+        Destroy(gameObject, 5.0f);
     }
 }

@@ -35,7 +35,8 @@
           <e p="GameInputAction.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GameState.cs" t="Include" />
-          <e p="ObstacleControl.cs" t="Include" />
+          <e p="MovingObstacleController.cs" t="Include" />
+          <e p="ObstacleController.cs" t="Include" />
           <e p="Pizza" t="Include">
             <e p="FirePizza.cs" t="Include" />
             <e p="PizzaControll.cs" t="Include" />
@@ -43,7 +44,8 @@
           </e>
           <e p="PlayerMoveController.cs" t="Include" />
           <e p="SingletonBehaviour.cs" t="Include" />
-          <e p="SpawnObstacle.cs" t="Include" />
+          <e p="SpawnFixedObstacle.cs" t="Include" />
+          <e p="SpawnMovingObstacle.cs" t="Include" />
           <e p="UI" t="Include">
             <e p="Aim.cs" t="Include" />
             <e p="EndMenuUI.cs" t="Include" />
