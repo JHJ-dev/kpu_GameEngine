@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\UI\EndMenuUI.cs" />
     <Compile Include="Assets\Scripts\SingletonBehaviour.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Scripts\UI\PrintFinishScore.cs" />
     <Compile Include="Assets\Scripts\UI\GameEndButtonUI.cs" />
     <Compile Include="Assets\Scripts\EventManager.cs" />
     <Compile Include="Assets\Scripts\UI\Timer.cs" />
@@ -75,7 +76,7 @@
     <Compile Include="Assets\Scripts\UI\StartMenuUI.cs" />
     <Compile Include="Assets\Scripts\UI\PrintScore.cs" />
     <Compile Include="Assets\Scripts\ObstacleControl.cs" />
-    <Compile Include="Assets\Scripts\UI\PrintFinishScore.cs" />
+    <Compile Include="Assets\Scripts\RemoveObject.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\GleyPlugins\DeliveryVehiclesPack\Scripts\Version.txt" />
