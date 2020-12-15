@@ -11,6 +11,10 @@ public class ObstacleController : MonoBehaviour
         {
             Destroy(gameObject, 0.1f);
         }
+        if (collision.collider.tag == "Obstacle")
+        {
+            Destroy(gameObject);
+        }
         if (collision.collider.tag == "MovingObstacle")
         {
             Destroy(gameObject);

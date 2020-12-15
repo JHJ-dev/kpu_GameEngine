@@ -23,17 +23,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.2PM/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2PM.sln" beforeDir="false" afterPath="$PROJECT_DIR$/2PM.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Models/Pizza_use.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Models/Pizza_use.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Pizza/PizzaControll.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Pizza/PizzaControll.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnObstacle.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnObstacle.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SimpleTownLite/_Prefabs/Vehicles_HotdogTruck.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SimpleTownLite/_Prefabs/Vehicles_HotdogTruck.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnFixedObstacle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnFixedObstacle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnMovingObstacle.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SpawnMovingObstacle.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +46,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SpawnFixedObstacle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Documents/kpu-game-dev/4/Assets/Scenes/InputSystem/First Person/FirstPersonCharacterMoveController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MovingObstacleController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -77,17 +77,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Aim.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/MenuButtonUI.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnObstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/GameRestartButtonUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMoveController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnMoveObstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UI/Timer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleControl.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnFixedObstacle.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Pizza/PizzaControll.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpawnMovingObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pizza/PizzaControll.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnFixedObstacle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MovingObstacleController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SpawnObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ObstacleController.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +146,7 @@
       <workItem from="1607982857521" duration="1445000" />
       <workItem from="1607992648923" duration="6309000" />
       <workItem from="1607999316573" duration="2921000" />
+      <workItem from="1608002627318" duration="1031000" />
     </task>
     <servers />
   </component>
