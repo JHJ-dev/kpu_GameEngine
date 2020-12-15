@@ -16,7 +16,7 @@ public class PrintScore : MonoBehaviour
 
     void Update()
     {
-        if (GameManager.Instance.state == GameState.Initialized)
+        if (GameManager.Instance.state == GameState.Initialized || GameManager.Instance.state == GameState.Paused || GameManager.Instance.state == GameState.Ended)
         {
             _text.text = "";
         }
