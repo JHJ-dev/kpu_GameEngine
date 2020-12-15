@@ -43353,7 +43353,7 @@ GameObject:
   - component: {fileID: 969389002}
   - component: {fileID: 969389003}
   m_Layer: 0
-  m_Name: SpawnObstacle
+  m_Name: FixedObstacleSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51614,6 +51614,36 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: d80c7433031fdee44bf3910c4b046ce7, type: 3}
   m_PrefabInstance: {fileID: 1186783266}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1188453184
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1188453185}
+  m_Layer: 0
+  m_Name: MovingObstacleSpawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1188453185
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1188453184}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.527098, y: 9.828618, z: -20.407124}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1188902733
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84701,7 +84731,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1893e8429cc7ec84c9865a155caeb771, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterMoveSpeed: 20
 --- !u!143 &1960003615
 CharacterController:
   m_ObjectHideFlags: 0
