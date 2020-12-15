@@ -14,7 +14,7 @@ public class MovingObstacleController : MonoBehaviour
     {
         if (collision.collider.tag == "Player")
         {
-            Destroy(gameObject,0.1f);
+            Destroy(gameObject,0.3f);
         }
         if (collision.collider.tag == "Building")
         {

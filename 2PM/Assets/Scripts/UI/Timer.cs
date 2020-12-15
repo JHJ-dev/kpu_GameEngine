@@ -6,7 +6,7 @@ public class Timer : MonoBehaviour
 {
     private Text _text;
 
-    private float _time = 180.0f;
+    private float _time = 30.0f;
     private bool _active;
 
     private void Start()
